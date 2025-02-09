@@ -15,8 +15,8 @@ importers:
         specifier: ^0.1.2
         version: 0.1.2
       '@inquirer/core':
-        specifier: ^3.1.2
-        version: 3.1.2
+        specifier: ^10.1.6
+        version: 10.1.6(@types/node@22.13.1)
       '@inquirer/prompts':
         specifier: ^7.3.1
         version: 7.3.1(@types/node@22.13.1)
@@ -458,10 +458,6 @@ packages:
 
   '@inquirer/core@2.3.1':
     resolution: {integrity: sha512-faYAYnIfdEuns3jGKykaog5oUqFiEVbCx9nXGZfUhyEEpKcHt5bpJfZTb3eOBQKo8I/v4sJkZeBHmFlSZQuBCw==}
-    engines: {node: '>=14.18.0'}
-
-  '@inquirer/core@3.1.2':
-    resolution: {integrity: sha512-lR2GaqBkp42Ew9BOAOqf2pSp+ymVES1qN8OC90WWh45yeoYLl0Ty1GyCxmkKqBJtq/+Ea1MF12AdFcZcpRNFsw==}
     engines: {node: '>=14.18.0'}
 
   '@inquirer/core@6.0.0':
@@ -3387,22 +3383,6 @@ snapshots:
       mute-stream: 1.0.0
       run-async: 3.0.0
       string-width: 4.2.3
-      strip-ansi: 6.0.1
-      wrap-ansi: 6.2.0
-
-  '@inquirer/core@3.1.2':
-    dependencies:
-      '@inquirer/type': 1.5.5
-      '@types/mute-stream': 0.0.1
-      '@types/node': 20.17.17
-      '@types/wrap-ansi': 3.0.0
-      ansi-escapes: 4.3.2
-      chalk: 4.1.2
-      cli-spinners: 2.9.2
-      cli-width: 4.1.0
-      figures: 3.2.0
-      mute-stream: 1.0.0
-      run-async: 3.0.0
       strip-ansi: 6.0.1
       wrap-ansi: 6.2.0
 
